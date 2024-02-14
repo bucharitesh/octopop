@@ -4,7 +4,7 @@ export * from "./cn";
 export * from "./datetime";
 export * from "./deep-equal";
 export * from "./domains";
-export * from "./fetch-with-timeout";
+export * from "./fetch";
 export * from "./fetcher";
 export * from "./hash";
 export * from "./link-constructor";
