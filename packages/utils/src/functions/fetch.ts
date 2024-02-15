@@ -1,5 +1,6 @@
 /**
  * Performs a fetch operation with a timeout.
+ * @category fetch
  * @param {RequestInfo | URL} input - The URL or Request object.
  * @param {RequestInit} [init] - Optional. The options for the fetch request.
  * @param {number} [timeout=5000] - Optional. The timeout duration in milliseconds (default is 5000ms).

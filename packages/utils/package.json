@@ -13,6 +13,7 @@
     "build": "tsup",
     "lint": "eslint src/",
     "dev": "tsup --watch",
+    "gen": "typedoc",
     "check-types": "tsc --noEmit"
   },
   "peerDependencies": {
@@ -34,7 +35,10 @@
     "ms": "^2.1.3",
     "nanoid": "^5.0.1",
     "tailwind-merge": "^2.2.1",
-    "typedoc": "^0.25.8"
+    "typedoc": "^0.25.8",
+    "typedoc-theme-category-nav": "^0.0.3",
+    "typedoc-github-wiki-theme": "^2.0.0-next.6",
+    "typedoc-material-theme": "1.0.2"
   },
   "keywords": [
     "utils",

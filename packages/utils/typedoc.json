@@ -1,0 +1,20 @@
+{
+  "categoryOrder": [
+    "constants",
+    "constants animation",
+    "css",
+    "fetch",
+    "encode",
+    "urls",
+    "domain",
+    "datetime",
+    "string_utils",
+    "*"
+  ],
+  "plugin": ["typedoc-theme-category-nav", "typedoc-material-theme"],
+  "theme": "navigation",
+  "themeColor": "#F43333",
+  "out": "../../apps/utils-docs",
+  "includeVersion": true,
+  "entryPoints": ["./src"]
+}

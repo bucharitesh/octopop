@@ -25,6 +25,7 @@ export const validSlugRegex = new RegExp(/^[a-zA-Z0-9\-]+$/);
 
 /**
  * Gets the subdomain from a domain name.
+ * @category domain
  * @param {string} name - The domain name.
  * @param {string} apexName - The apex domain name.
  * @returns {string | null} The subdomain, or null if the name is equal to the apexName.
@@ -40,6 +41,7 @@ export const getSubdomain = (name: string, apexName: string): string | null => {
 
 /**
  * Gets the domain without "www." from a URL.
+ * @category domain
  * @param {string} url - The URL.
  * @returns {string | null} The domain without "www.", or null if the URL is not valid.
  * @example

@@ -1,5 +1,6 @@
 /**
  * Generates an MD5 hash for the given message.
+ * @category encode
  * @param {string} message - The message to hash.
  * @returns {Promise<string>} A Promise that resolves with the hexadecimal MD5 hash of the message.
  * @example

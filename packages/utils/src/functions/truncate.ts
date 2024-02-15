@@ -1,5 +1,6 @@
 /**
  * Truncates a string to a specified length, adding ellipsis if necessary.
+ * @category string_utils
  * @param {string | null} str - The string to truncate.
  * @param {number} length - The maximum length of the truncated string.
  * @returns {string | null} The truncated string or the original string if its length is less than or equal to the specified length.

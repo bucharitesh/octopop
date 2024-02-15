@@ -11,6 +11,7 @@ interface SWRError extends Error {
 /**
  * Performs a fetch operation and returns the response data as JSON.
  * Throws an error if the response is not successful (HTTP status code other than 2xx).
+ * @category fetch
  * @param {RequestInfo} input - The URL or Request object.
  * @param {RequestInit} [init] - Optional. The options for the fetch request.
  * @returns {Promise<JSON>} A Promise that resolves with the response data as JSON if the fetch is successful, or rejects with a SWRError if the fetch fails or the response is not successful.

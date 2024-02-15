@@ -1,5 +1,6 @@
 /**
  * Returns a string representing the local date and time in ISO format, based on the provided timestamp or the current date and time if no timestamp is provided.
+ * @category datetime
  * @param {Date} [timestamp] - Optional. The timestamp for which to retrieve the local date and time.
  * @returns {string} A string representing the local date and time in ISO format (e.g., "2022-02-17T12:30").
  * @example
@@ -21,6 +22,8 @@ export const getDateTimeLocal = (timestamp?: Date): string => {
 
 /**
  * Formats the provided date string to a localized date format.
+ * @category datetime
+
  * @param {string} dateString - The date string to format (in ISO format).
  * @returns {string} The formatted date string in the "month day, year" format (e.g., "February 17, 2022").
  * @example
@@ -38,6 +41,8 @@ export const formatDate = (dateString: string): string => {
 
 /**
  * Calculates the first and last day of the current month based on the provided day.
+ * @category datetime
+
  * @param {number} day - The day of the month to use for calculation.
  * @returns {{ firstDay: Date, lastDay: Date }} An object containing the first and last day of the month.
  * @example
@@ -70,6 +75,8 @@ export const getFirstAndLastDay = (
 
 /**
  * Returns the last day of the current month.
+ * @category datetime
+
  * @returns {number} The last day of the current month.
  * @example
  * // Returns the last day of the current month

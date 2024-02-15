@@ -3,6 +3,7 @@ import { twMerge } from "tailwind-merge";
 
 /**
  * Concatenates multiple class values into a single string, using Tailwind CSS and clsx.
+ * @category css
  * @param {...ClassValue[]} inputs - The class values to be concatenated.
  * @returns {string} A string containing the concatenated class names.
  * @example

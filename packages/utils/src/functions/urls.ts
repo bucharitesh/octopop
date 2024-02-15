@@ -1,5 +1,6 @@
 /**
  * Checks if a given string is a valid URL.
+ * @category urls
  * @param {string} url - The URL to validate.
  * @returns {boolean} true if the URL is valid, false otherwise.
  * @example
@@ -18,6 +19,8 @@ export const isValidUrl = (url: string): boolean => {
 /**
  * Converts a string to a URL and returns its string representation.
  * If the string is not a valid URL, attempts to prepend "https://" before converting.
+ * @category urls
+ *
  * @param {string} str - The string to convert to a URL.
  * @returns {string | null} The URL string representation or null if the string cannot be converted to a valid URL.
  * @example
@@ -38,6 +41,8 @@ export const getUrlFromString = (str: string) => {
 
 /**
  * Extracts search parameters from a URL string and returns them as an object.
+ * @category urls
+ *
  * @param {string} url - The URL string.
  * @returns {Record<string, string>} An object containing the search parameters.
  * @example
@@ -54,6 +59,8 @@ export const getSearchParams = (url: string): Record<string, string> => {
 
 /**
  * Extracts search parameters from a URL string and returns them as an object, excluding empty values.
+ * @category urls
+ *
  * @param {string} url - The URL string.
  * @returns {Record<string, string>} An object containing non-empty search parameters.
  * @example
@@ -78,6 +85,7 @@ export const getParamsFromURL = (url: string): Record<string, string> => {
 
 /**
  * Constructs a new URL string by updating or removing specified UTM parameters from an existing URL string.
+ * @category urls
  * @param {string} url - The original URL string.
  * @param {Record<string, string>} utmParams - The UTM parameters to update or remove.
  * @returns {string} The modified URL string with updated or removed UTM parameters.
@@ -107,6 +115,7 @@ export const constructURLFromUTMParams = (
 
 /**
  * Metadata describing common URL parameters for tracking and analytics.
+ * @category urls
  * @type {Array<{ display: string, key: string, examples: string }>}
  * @example
  * paramsMetadata.forEach(param => console.log(param.display));
@@ -122,6 +131,7 @@ export const paramsMetadata = [
 
 /**
  * Removes UTM parameters from a given URL string.
+ * @category urls
  * @param {string} url - The URL string.
  * @returns {string} The URL string with UTM parameters removed.
  * @example

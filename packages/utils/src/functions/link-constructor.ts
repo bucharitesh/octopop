@@ -1,5 +1,6 @@
 /**
  * Constructs a link based on the provided parameters.
+ * @category urls
  * @param {object} options - The options object.
  * @param {string} options.domain - The domain to use in the link.
  * @param {string} [options.key] - Optional. The key to append to the link.

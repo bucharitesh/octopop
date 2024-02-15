@@ -2,6 +2,7 @@ import { customAlphabet } from "nanoid";
 
 /**
  * Generates a random alphanumeric string using the nanoid library.
+ * @category encode
  * @param {number} [chars=7] - Optional. The number of characters in the generated string (default is 7).
  * @returns {string} A random alphanumeric string.
  * @example

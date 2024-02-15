@@ -2,6 +2,7 @@ import ms from "ms";
 
 /**
  * Returns a string representing the time elapsed since the provided timestamp.
+ * @category datetime
  * @param {Date | null} timestamp - The timestamp to calculate the time ago from.
  * @param {{ withAgo?: boolean }} [options] - Optional. Options for formatting.
  * @param {boolean} [options.withAgo] - Optional. Whether to include "ago" in the output (default is false).

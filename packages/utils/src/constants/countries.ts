@@ -1,3 +1,4 @@
+/**@category constants */
 export const COUNTRIES: { [key: string]: string } = {
   AF: "Afghanistan",
   AL: "Albania",
