@@ -11,10 +11,8 @@
     "string_utils",
     "*"
   ],
-  "plugin": ["typedoc-theme-category-nav", "typedoc-material-theme"],
-  "theme": "navigation",
-  "themeColor": "#F43333",
-  "out": "../../apps/utils-docs",
+  "plugin": ["typedoc-plugin-markdown"],
+  "out": "../../website/docs/utils",
   "includeVersion": true,
   "entryPoints": ["./src"]
 }
