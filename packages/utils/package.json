@@ -1,0 +1,46 @@
+{
+  "name": "@octopop/utils",
+  "description": "Utility functions and constants for Flam",
+  "version": "0.0.1",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint src/",
+    "dev": "tsup --watch",
+    "check-types": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "next": "13.5.4",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@octopop/tsconfig": "workspace:*",
+    "@types/ms": "^0.7.31",
+    "@types/node": "18.11.9",
+    "@types/react": "^18.2.5",
+    "next": "13.5.4",
+    "react": "^18.2.0",
+    "tsup": "^6.1.3",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "ms": "^2.1.3",
+    "nanoid": "^5.0.1",
+    "tailwind-merge": "^2.2.1"
+  },
+  "keywords": [
+    "utils",
+    "utility",
+    "functions"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
