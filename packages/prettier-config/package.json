@@ -8,7 +8,9 @@
   },
   "devDependencies": {
     "lint-staged": "13.1.0",
-    "prettier": "3.0.0"
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11"
   },
   "publishConfig": {
     "access": "public"
