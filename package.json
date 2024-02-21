@@ -12,11 +12,13 @@
     "script": "echo 'Run this script in apps/web'"
   },
   "devDependencies": {
-    "@octopop/tsconfig": "workspace:*",
+    "@commitlint/cli": "^18.6.1",
+    "@commitlint/config-conventional": "^18.6.2",
     "@octopop/prettier-config": "workspace:*",
+    "@octopop/tsconfig": "workspace:*",
     "eslint": "^8.48.0",
-    "turbo": "^1.12.3",
-    "husky": "8.0.3"
+    "husky": "8.0.3",
+    "turbo": "^1.12.3"
   },
   "packageManager": "pnpm@8.6.10",
   "prettier": "@octopop/prettier-config"
