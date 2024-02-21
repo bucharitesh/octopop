@@ -11,9 +11,10 @@ const config = {
   url: 'https://interweave.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
+  onDuplicateRoutes: 'throw',
   favicon: 'img/favicon.svg',
-  organizationName: 'milesj',
-  projectName: 'interweave',
+  organizationName: 'octopop',
+  projectName: 'octopop',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -25,13 +26,14 @@ const config = {
 
   plugins: [
     [
-      'docusaurus-plugin-typedoc',
+      'docusaurus-plugin-typedoc-api',
       {
-        entryPoints: '../packages/utils/src/index.ts',
-        tsconfig: '../packages/utils/tsconfig.json',
-        typeDeclarationFormat: 'table',
-        expandObjects: false,
-        readme: 'none',
+        projectRoot: path.join(__dirname, '..'),
+        packages: [...pkgNames.map((pkg) => `packages/${pkg}`)],
+        minimal: true,
+        readmes: true,
+        debug: false,
+        tsconfigName: 'tsconfig.docs.json',
       },
     ],
   ],
