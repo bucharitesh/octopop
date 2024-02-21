@@ -1,0 +1,51 @@
+---
+title: utils
+---
+
+import EnvBadges from '@theme/EnvBadges';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<EnvBadges frontend api="/api" />
+
+A Utils Library
+
+## Installation
+
+<Tabs
+  groupId="package-manager"
+  defaultValue="yarn"
+  values={[
+    { label: 'Yarn', value: 'yarn' },
+    { label: 'pnpm', value: 'pnpm' },
+    { label: 'npm', value: 'npm' },
+  ]}
+>
+  <TabItem value="yarn">
+
+```bash
+yarn add @octopop/utils
+```
+
+  </TabItem>
+  <TabItem value="pnpm">
+
+```bash
+pnpm add @octopop/utils
+```
+
+  </TabItem>
+  <TabItem value="npm">
+
+```bash
+npm install @octopop/utils
+```
+
+  </TabItem>
+</Tabs>
+
+<!-- prettier-ignore -->
+[dash-dash]: https://unix.stackexchange.com/questions/147143/when-and-how-was-the-double-dash-introduced-as-an-end-of-options-delimiter
+[format]: /api/args/function/format
+[parse]: /api/args/function/parse
+[parseincontext]: /api/args/function/parseInContext

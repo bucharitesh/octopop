@@ -8,13 +8,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
 
-interface FeatureProps {
-	title: string;
-	description: React.ReactNode;
-	imageUrl?: string;
-}
-
-const features: FeatureProps[][] = [
+const features = [
 	[
 		{
 			title: '💻 Cross-platform',
@@ -78,7 +72,7 @@ const features: FeatureProps[][] = [
 	],
 ];
 
-function Feature({ imageUrl, title, description }: FeatureProps) {
+function Feature({ imageUrl, title, description }) {
 	const imgUrl = useBaseUrl(imageUrl);
 
 	return (

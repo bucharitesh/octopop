@@ -1,0 +1,25 @@
+{
+  "extends": "@octopop/tsconfig/base",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "resolvePackageJsonExports": true,
+    "resolvePackageJsonImports": true,
+    "customConditions": ["node"],
+    "declarationDir": "dts",
+    "outDir": "dts",
+    "rootDir": ".",
+  },
+  "exclude": [
+    "dts"
+  ],
+  "include": [
+    "src/**/*",
+    "types/**/*",
+    "../types/**/*"
+  ],
+  "references": []
+}
