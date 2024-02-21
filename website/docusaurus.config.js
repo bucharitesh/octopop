@@ -1,14 +1,15 @@
 const path = require('path');
 
 const pkgNames = ['utils'];
+
 const pkgs = pkgNames.map((name) => require(`../packages/${name}/package.json`));
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Interweave',
+  title: 'Octopop',
   tagline:
     'React library to safely render HTML, filter attributes, autowrap text with matchers, render emoji characters, and much more.',
-  url: 'https://interweave.dev',
+  url: 'https://octopop.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onDuplicateRoutes: 'throw',
@@ -23,7 +24,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   plugins: [
     [
       'docusaurus-plugin-typedoc-api',
@@ -43,12 +43,12 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/milesj/interweave/edit/master/website/',
+          editUrl: 'https://github.com/bucharitesh/octopop/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/milesj/interweave/edit/master/website/blog/',
+            'https://github.com/bucharitesh/octopop/edit/main/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -58,9 +58,9 @@ const config = {
   ],
   themeConfig: {
     navbar: {
-      title: 'Interweave',
+      title: 'Octopop',
       logo: {
-        alt: 'Interweave',
+        alt: 'Octopop',
         src: 'img/logo.svg',
       },
       items: [
@@ -84,7 +84,7 @@ const config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/milesj/interweave',
+          href: 'https://github.com/bucharitesh/octopop',
           label: 'GitHub',
           position: 'right',
         },

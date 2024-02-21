@@ -70,43 +70,47 @@ function Home() {
 	const { siteConfig } = context;
 
 	return (
-		<Layout description={siteConfig.tagline} title="Safely render HTML in React">
-			<header className={clsx('hero hero--primary', styles.heroBanner)}>
-				<div className="container">
-					<h1 className="hero__title">{siteConfig.title}</h1>
-					<p className="hero__subtitle">{siteConfig.tagline}</p>
-					<div className={styles.buttons}>
-						<Link
-							className={clsx('button button--secondary button--lg', styles.getStarted)}
-							to={useBaseUrl('docs/')}
-						>
-							Get started
-						</Link>
+    <Layout
+      description={siteConfig.tagline}
+      title="Safely render HTML in React"
+    >
+      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        <div className="container">
+          <h1 className="hero__title">{siteConfig.title}</h1>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/')}
+            >
+              Get started
+            </Link>
 
-						<iframe
-							frameBorder="0"
-							scrolling="0"
-							src="https://ghbtns.com/github-btn.html?user=milesj&repo=interweave&type=star&count=true&size=large"
-							title="GitHub"
-						/>
-					</div>
-				</div>
-			</header>
+            <iframe
+              src="https://ghbtns.com/github-btn.html?user=bucharitesh&repo=octopop&type=star&count=true&size=large"
+              title="GitHub"
+            />
+          </div>
+        </div>
+      </header>
 
-			<main>
-				<section className={styles.features}>
-					<div className="container">
-						<div className="row">
-							{features.map((props, idx) => (
-								// eslint-disable-next-line react/no-array-index-key
-								<Feature key={idx} {...props} />
-							))}
-						</div>
-					</div>
-				</section>
-			</main>
-		</Layout>
-	);
+      <main>
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              {features.map((props, idx) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <Feature key={idx} {...props} />
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
+    </Layout>
+  );
 }
 
 export default Home;
