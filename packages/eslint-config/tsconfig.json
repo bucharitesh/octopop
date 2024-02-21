@@ -1,6 +1,0 @@
-{
-  "extends": "@octopop/tsconfig/base",
-  "compilerOptions": {
-    "incremental": false
-  }
-}
