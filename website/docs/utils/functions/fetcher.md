@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / fetcher
+[Utils v0.0.1](../README.md) / fetcher
 
 # Function: fetcher()
 
@@ -48,4 +48,4 @@ fetcher<Data>("https://api.example.com/data", { method: "GET" })
 
 ## Source
 
-[functions/fetcher.ts:29](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/fetcher.ts#L29)
+[functions/fetcher.ts:29](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/fetcher.ts#L29)

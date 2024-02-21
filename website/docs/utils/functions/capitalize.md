@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / capitalize
+[Utils v0.0.1](../README.md) / capitalize
 
 # Function: capitalize()
 
@@ -38,4 +38,4 @@ capitalize(null);
 
 ## Source
 
-[functions/capitalize.ts:17](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/capitalize.ts#L17)
+[functions/capitalize.ts:17](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/capitalize.ts#L17)

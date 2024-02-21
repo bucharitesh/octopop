@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / STAGGER\_CHILD\_VARIANTS
+[Utils v0.0.1](../README.md) / STAGGER\_CHILD\_VARIANTS
 
 # Variable: STAGGER\_CHILD\_VARIANTS
 
@@ -48,4 +48,4 @@
 
 ## Source
 
-[constants/index.ts:9](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/constants/index.ts#L9)
+[constants/index.ts:9](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/constants/index.ts#L9)

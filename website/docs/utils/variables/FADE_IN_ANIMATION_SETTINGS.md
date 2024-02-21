@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / FADE\_IN\_ANIMATION\_SETTINGS
+[Utils v0.0.1](../README.md) / FADE\_IN\_ANIMATION\_SETTINGS
 
 # Variable: FADE\_IN\_ANIMATION\_SETTINGS
 
@@ -44,4 +44,4 @@
 
 ## Source
 
-[constants/index.ts:21](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/constants/index.ts#L21)
+[constants/index.ts:21](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/constants/index.ts#L21)

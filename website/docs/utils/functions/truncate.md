@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / truncate
+[Utils v0.0.1](../README.md) / truncate
 
 # Function: truncate()
 
@@ -36,4 +36,4 @@ console.log(truncatedString); // Output: "Lorem ipsu..."
 
 ## Source
 
-[functions/truncate.ts:12](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/truncate.ts#L12)
+[functions/truncate.ts:12](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/truncate.ts#L12)

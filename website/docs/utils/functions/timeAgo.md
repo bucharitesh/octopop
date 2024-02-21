@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / timeAgo
+[Utils v0.0.1](../README.md) / timeAgo
 
 # Function: timeAgo()
 
@@ -44,4 +44,4 @@ console.log(timeElapsedWithAgo); // Output: "1d ago"
 
 ## Source
 
-[functions/time-ago.ts:19](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/time-ago.ts#L19)
+[functions/time-ago.ts:19](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/time-ago.ts#L19)

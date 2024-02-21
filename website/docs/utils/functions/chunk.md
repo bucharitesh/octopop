@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / chunk
+[Utils v0.0.1](../README.md) / chunk
 
 # Function: chunk()
 
@@ -42,4 +42,4 @@ chunk(['a', 'b', 'c', 'd', 'e', 'f'], 3);
 
 ## Source
 
-[functions/chunk.ts:14](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/chunk.ts#L14)
+[functions/chunk.ts:14](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/chunk.ts#L14)

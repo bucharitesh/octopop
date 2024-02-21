@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / constructURLFromUTMParams
+[Utils v0.0.1](../README.md) / constructURLFromUTMParams
 
 # Function: constructURLFromUTMParams()
 
@@ -35,4 +35,4 @@ constructURLFromUTMParams('https://example.com', { utm_source: 'twitter', utm_ca
 
 ## Source
 
-[functions/urls.ts:96](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/urls.ts#L96)
+[functions/urls.ts:96](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/urls.ts#L96)

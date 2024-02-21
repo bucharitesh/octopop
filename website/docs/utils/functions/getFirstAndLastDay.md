@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / getFirstAndLastDay
+[Utils v0.0.1](../README.md) / getFirstAndLastDay
 
 # Function: getFirstAndLastDay()
 
@@ -39,4 +39,4 @@ getFirstAndLastDay(15);
 
 ## Source
 
-[functions/datetime.ts:52](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/datetime.ts#L52)
+[functions/datetime.ts:52](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/datetime.ts#L52)

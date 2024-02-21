@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / deepEqual
+[Utils v0.0.1](../README.md) / deepEqual
 
 # Function: deepEqual()
 
@@ -38,4 +38,4 @@ deepEqual({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 3 } });
 
 ## Source
 
-[functions/deep-equal.ts:18](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/deep-equal.ts#L18)
+[functions/deep-equal.ts:18](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/deep-equal.ts#L18)

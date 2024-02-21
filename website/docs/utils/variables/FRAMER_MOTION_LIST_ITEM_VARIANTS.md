@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / FRAMER\_MOTION\_LIST\_ITEM\_VARIANTS
+[Utils v0.0.1](../README.md) / FRAMER\_MOTION\_LIST\_ITEM\_VARIANTS
 
 # Variable: FRAMER\_MOTION\_LIST\_ITEM\_VARIANTS
 
@@ -44,4 +44,4 @@
 
 ## Source
 
-[constants/index.ts:4](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/constants/index.ts#L4)
+[constants/index.ts:4](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/constants/index.ts#L4)

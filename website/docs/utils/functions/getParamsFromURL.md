@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / getParamsFromURL
+[Utils v0.0.1](../README.md) / getParamsFromURL
 
 # Function: getParamsFromURL()
 
@@ -31,4 +31,4 @@ getParamsFromURL('https://example.com?query=hello&sort=&page=1');
 
 ## Source
 
-[functions/urls.ts:70](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/urls.ts#L70)
+[functions/urls.ts:70](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/urls.ts#L70)

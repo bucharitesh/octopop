@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / nanoid
+[Utils v0.0.1](../README.md) / nanoid
 
 # Function: nanoid()
 
@@ -36,4 +36,4 @@ console.log(longerRandomString);
 
 ## Source
 
-[functions/nanoid.ts:17](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/nanoid.ts#L17)
+[functions/nanoid.ts:17](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/nanoid.ts#L17)

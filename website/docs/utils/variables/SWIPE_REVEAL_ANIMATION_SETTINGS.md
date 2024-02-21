@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / SWIPE\_REVEAL\_ANIMATION\_SETTINGS
+[Utils v0.0.1](../README.md) / SWIPE\_REVEAL\_ANIMATION\_SETTINGS
 
 # Variable: SWIPE\_REVEAL\_ANIMATION\_SETTINGS
 
@@ -48,4 +48,4 @@
 
 ## Source
 
-[constants/index.ts:14](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/constants/index.ts#L14)
+[constants/index.ts:14](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/constants/index.ts#L14)

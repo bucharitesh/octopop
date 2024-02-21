@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / fetchWithTimeout
+[Utils v0.0.1](../README.md) / fetchWithTimeout
 
 # Function: fetchWithTimeout()
 
@@ -45,4 +45,4 @@ fetchWithTimeout("https://api.example.com/data", { method: "GET" }, 3000)
 
 ## Source
 
-[functions/fetch.ts:18](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/fetch.ts#L18)
+[functions/fetch.ts:18](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/fetch.ts#L18)

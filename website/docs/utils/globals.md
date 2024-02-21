@@ -1,8 +1,17 @@
-**@octopop/utils v0.0.1** • [Readme](README.md) \| API
+**Utils v0.0.1** • [Readme](README.md) \| API
 
 ***
 
-# @octopop/utils v0.0.1
+# Utils v0.0.1
+
+## Other
+
+- [validDomainRegex](variables/validDomainRegex.md)
+- [validKeyRegex](variables/validKeyRegex.md)
+- [validSlugRegex](variables/validSlugRegex.md)
+- [chunk](functions/chunk.md)
+- [deepEqual](functions/deepEqual.md)
+- [nFormatter](functions/nFormatter.md)
 
 ## constants
 
@@ -19,15 +28,33 @@
 
 - [cn](functions/cn.md)
 
-## fetch
+## datetime
 
-- [fetchWithTimeout](functions/fetchWithTimeout.md)
-- [fetcher](functions/fetcher.md)
+- [formatDate](functions/formatDate.md)
+- [getDateTimeLocal](functions/getDateTimeLocal.md)
+- [getFirstAndLastDay](functions/getFirstAndLastDay.md)
+- [getLastDayOfMonth](functions/getLastDayOfMonth.md)
+- [timeAgo](functions/timeAgo.md)
+
+## domain
+
+- [getDomainWithoutWWW](functions/getDomainWithoutWWW.md)
+- [getSubdomain](functions/getSubdomain.md)
 
 ## encode
 
 - [generateMD5Hash](functions/generateMD5Hash.md)
 - [nanoid](functions/nanoid.md)
+
+## fetch
+
+- [fetchWithTimeout](functions/fetchWithTimeout.md)
+- [fetcher](functions/fetcher.md)
+
+## string_utils
+
+- [capitalize](functions/capitalize.md)
+- [truncate](functions/truncate.md)
 
 ## urls
 
@@ -39,30 +66,3 @@
 - [getUrlWithoutUTMParams](functions/getUrlWithoutUTMParams.md)
 - [isValidUrl](functions/isValidUrl.md)
 - [linkConstructor](functions/linkConstructor.md)
-
-## domain
-
-- [getDomainWithoutWWW](functions/getDomainWithoutWWW.md)
-- [getSubdomain](functions/getSubdomain.md)
-
-## datetime
-
-- [formatDate](functions/formatDate.md)
-- [getDateTimeLocal](functions/getDateTimeLocal.md)
-- [getFirstAndLastDay](functions/getFirstAndLastDay.md)
-- [getLastDayOfMonth](functions/getLastDayOfMonth.md)
-- [timeAgo](functions/timeAgo.md)
-
-## string_utils
-
-- [capitalize](functions/capitalize.md)
-- [truncate](functions/truncate.md)
-
-## Other
-
-- [validDomainRegex](variables/validDomainRegex.md)
-- [validKeyRegex](variables/validKeyRegex.md)
-- [validSlugRegex](variables/validSlugRegex.md)
-- [chunk](functions/chunk.md)
-- [deepEqual](functions/deepEqual.md)
-- [nFormatter](functions/nFormatter.md)

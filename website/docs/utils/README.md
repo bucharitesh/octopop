@@ -1,4 +1,4 @@
-**@octopop/utils v0.0.1** • Readme \| [API](globals.md)
+**Utils v0.0.1** • Readme \| [API](globals.md)
 
 ***
 

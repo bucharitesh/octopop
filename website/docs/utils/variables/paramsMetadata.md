@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / paramsMetadata
+[Utils v0.0.1](../README.md) / paramsMetadata
 
 # Variable: paramsMetadata
 
@@ -18,4 +18,4 @@ paramsMetadata.forEach(param => console.log(param.display));
 
 ## Source
 
-[functions/urls.ts:123](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/urls.ts#L123)
+[functions/urls.ts:123](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/urls.ts#L123)

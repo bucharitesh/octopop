@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / linkConstructor
+[Utils v0.0.1](../README.md) / linkConstructor
 
 # Function: linkConstructor()
 
@@ -57,4 +57,4 @@ linkConstructor({ domain: "example.com", key: "page1", localhost: true });
 
 ## Source
 
-[functions/link-constructor.ts:21](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/link-constructor.ts#L21)
+[functions/link-constructor.ts:21](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/link-constructor.ts#L21)

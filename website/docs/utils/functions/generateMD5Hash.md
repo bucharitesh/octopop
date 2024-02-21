@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / generateMD5Hash
+[Utils v0.0.1](../README.md) / generateMD5Hash
 
 # Function: generateMD5Hash()
 
@@ -37,4 +37,4 @@ generateMD5Hash("Hello, world!")
 
 ## Source
 
-[functions/hash.ts:16](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/hash.ts#L16)
+[functions/hash.ts:16](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/hash.ts#L16)

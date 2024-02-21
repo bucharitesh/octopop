@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / getDateTimeLocal
+[Utils v0.0.1](../README.md) / getDateTimeLocal
 
 # Function: getDateTimeLocal()
 
@@ -34,4 +34,4 @@ getDateTimeLocal(new Date("2022-02-17T12:30:00Z"));
 
 ## Source
 
-[functions/datetime.ts:13](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/datetime.ts#L13)
+[functions/datetime.ts:13](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/datetime.ts#L13)

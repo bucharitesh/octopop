@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / cn
+[Utils v0.0.1](../README.md) / cn
 
 # Function: cn()
 
@@ -34,4 +34,4 @@ cn("text-lg", "text-green-500");
 
 ## Source
 
-[functions/cn.ts:16](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/cn.ts#L16)
+[functions/cn.ts:16](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/cn.ts#L16)

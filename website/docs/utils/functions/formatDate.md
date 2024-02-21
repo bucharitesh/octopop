@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / formatDate
+[Utils v0.0.1](../README.md) / formatDate
 
 # Function: formatDate()
 
@@ -31,4 +31,4 @@ formatDate("2022-02-17");
 
 ## Source
 
-[functions/datetime.ts:33](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/datetime.ts#L33)
+[functions/datetime.ts:33](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/datetime.ts#L33)

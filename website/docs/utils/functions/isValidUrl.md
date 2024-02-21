@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / isValidUrl
+[Utils v0.0.1](../README.md) / isValidUrl
 
 # Function: isValidUrl()
 
@@ -31,4 +31,4 @@ isValidUrl('not-a-url'); // false
 
 ## Source
 
-[functions/urls.ts:10](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/urls.ts#L10)
+[functions/urls.ts:10](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/urls.ts#L10)

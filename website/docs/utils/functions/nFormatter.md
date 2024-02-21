@@ -1,8 +1,8 @@
-**@octopop/utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
+**Utils v0.0.1** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
-[@octopop/utils v0.0.1](../README.md) / nFormatter
+[Utils v0.0.1](../README.md) / nFormatter
 
 # Function: nFormatter()
 
@@ -48,4 +48,4 @@ console.log(fullNumber); // Output: "12,345,678.00"
 
 ## Source
 
-[functions/nformatter.ts:17](https://github.com/bucharitesh/octopop/blob/d1ccec1/packages/utils/src/functions/nformatter.ts#L17)
+[functions/nformatter.ts:17](https://github.com/bucharitesh/octopop/blob/2bf71a1/packages/utils/src/functions/nformatter.ts#L17)
