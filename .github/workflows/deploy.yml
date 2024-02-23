@@ -1,36 +1,41 @@
-name: Deploy
+name: Deploy to GitHub Pages
+
 on:
   push:
     branches:
       - dev
+
+permissions:
+  contents: write
+
 jobs:
-  docs:
-    name: Docs
+  deploy:
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
-      - uses: pnpm/action-setup@v3
-      - name: Add key to allow access to repository
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          cat <<EOT >> ~/.ssh/config
-          Host github.com
-          HostName github.com
-          IdentityFile ~/.ssh/id_rsa
-          EOT
+        with:
+          node-version: 18
+          cache: yarn
+
+      defaults:
+        run:
+          shell: bash
+          working-directory: ./website
+      
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build website
+        run: yarn build
+
       - name: Deploy to GitHub Pages
-        env:
-          GIT_USER: bucharitesh
-          USE_SSH: true
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "gh-actions"
-          pnpm install --no-frozen-lockfile
-          cd website
-          pnpm run deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Build output to publish to the `gh-pages` branch:
+          publish_dir: ./build
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
