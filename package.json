@@ -8,18 +8,24 @@
     "lint": "turbo lint",
     "clean": "turbo clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "publish:tw": "turbo build --filter='@octopop/tailwind-config' && cd packages/tailwind-config && npm publish && cd ../../",
-    "publish:utils": "turbo build --filter='@octopop/utils' && cd packages/utils && npm publish && cd ../../",
+    "prepare": "husky install",
     "script": "echo 'Run this script in apps/web'"
   },
   "devDependencies": {
-    "@octopop/tailwind-config": "workspace:*",
+    "@commitlint/cli": "^18.6.1",
+    "@commitlint/config-conventional": "^18.6.2",
+    "@commitlint/cz-commitlint": "^17.5.0",
+    "@octopop/prettier-config": "workspace:*",
+    "@octopop/tsconfig": "workspace:*",
     "eslint": "^8.48.0",
-    "prettier": "^3.2.5",
-    "prettier-plugin-organize-imports": "^3.2.4",
-    "prettier-plugin-tailwindcss": "^0.5.11",
-    "tsconfig": "workspace:*",
+    "husky": "8.0.3",
     "turbo": "^1.12.3"
   },
-  "packageManager": "pnpm@8.6.10"
+  "packageManager": "pnpm@8.6.10",
+  "prettier": "@octopop/prettier-config",
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  }
 }

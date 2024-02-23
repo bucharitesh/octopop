@@ -1,0 +1,170 @@
+---
+title: tsconfig
+---
+
+import EnvBadges from '@theme/EnvBadges';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<EnvBadges
+  frontend
+  backend
+  tooling
+  api="https://www.npmjs.com/package/@octopop/tsconfig"
+/>
+
+This documentation provides details about the TypeScript configuration files to be used in your project. It encompasses configurations tailored for various scenarios, including default settings, Next.js projects, and React libraries.
+
+## Installation
+
+<Tabs
+  groupId="package-manager"
+  defaultValue="yarn"
+  values={[
+    { label: 'Yarn', value: 'yarn' },
+    { label: 'pnpm', value: 'pnpm' },
+    { label: 'npm', value: 'npm' },
+  ]}
+>
+  <TabItem value="yarn">
+
+```bash
+yarn add @octopop/tsconfig
+```
+
+  </TabItem>
+  <TabItem value="pnpm">
+
+```bash
+pnpm add @octopop/tsconfig
+```
+
+  </TabItem>
+  <TabItem value="npm">
+
+```bash
+npm install @octopop/tsconfig
+```
+
+  </TabItem>
+</Tabs>
+
+You can import and use one of the provided `tsconfig.json` files as an extended version in another `tsconfig.json` file. Follow these steps to do so:
+
+1.  **Create or Open a `tsconfig.json` File:**
+
+    Create a new `tsconfig.json` file if you don't have one, or open an existing `tsconfig.json` file where you want to use the imported configuration.
+
+2.  **Add an `extends` Property:**
+
+        Inside your `tsconfig.json` file, add an `extends` property and set its value to the path of the `tsconfig.json` file you want to import. This path can be relative or absolute.
+
+        <Tabs
+          groupId="package-manager"
+          defaultValue="base"
+          values={[
+          { label: 'Base', value: 'base' },
+          { label: 'Next-js', value: 'next' },
+          { label: 'React-js', value: 'react' },
+          ]}
+        >
+          <TabItem value="base">
+            ```json
+            {
+              "extends": "@octopop/tsconfig/base"
+            }
+            ```
+          </TabItem>
+          <TabItem value="next">
+            ```json
+            {
+              "extends": "@octopop/tsconfig/nextjs"
+            }
+            ```
+          </TabItem>
+          <TabItem value="react">
+            ```json
+            {
+              "extends": "@octopop/tsconfig/react-library"
+            }
+            ```
+          </TabItem>
+        </Tabs>
+
+## Configs
+
+### `base.json`
+
+javascript
+
+```json
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules"]
+}
+```
+
+### `next.json`
+
+next-js
+
+```next.json
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Next.js",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "allowJs": true,
+    "declaration": false,
+    "declarationMap": false,
+    "incremental": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "strict": false,
+    "target": "es5"
+  },
+  "include": ["src", "next-env.d.ts"],
+  "exclude": ["node_modules"]
+}
+```
+
+### `react-library.json`
+
+react-js
+
+```react-library.json
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React Library",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "lib": ["ES2015", "DOM"],
+    "module": "ESNext",
+    "target": "ES6",
+    "jsx": "react-jsx",
+    "noEmit": true
+  }
+}
+```

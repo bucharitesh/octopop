@@ -1,0 +1,85 @@
+---
+title: prettier
+---
+
+import EnvBadges from '@theme/EnvBadges';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<EnvBadges
+  frontend
+  backend
+  tooling
+  api="https://www.npmjs.com/package/@octopop/prettier"
+/>
+
+This documentation provides instructions for installing and using the Prettier configuration in your project, along with a sample configuration file and explanations of the formatting rules it defines.
+
+## Installation
+
+<Tabs
+  groupId="package-manager"
+  defaultValue="yarn"
+  values={[
+    { label: 'Yarn', value: 'yarn' },
+    { label: 'pnpm', value: 'pnpm' },
+    { label: 'npm', value: 'npm' },
+  ]}
+>
+  <TabItem value="yarn">
+
+```bash
+yarn add @octopop/prettier
+```
+
+  </TabItem>
+  <TabItem value="pnpm">
+
+```bash
+pnpm add @octopop/prettier
+```
+
+  </TabItem>
+  <TabItem value="npm">
+
+```bash
+npm install @octopop/prettier
+```
+
+  </TabItem>
+</Tabs>
+
+You can create a `.prettierrc` file in the root directory of your project and paste the following configuration:
+
+```.prettierrc.json
+{
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "printWidth": 80,
+  "semi": true,
+  "singleQuote": true
+}
+```
+
+Adjust the configuration options as needed based on your project's requirements.
+
+### Configure
+
+Reference the configuration in your `package.json` file:
+
+```json
+{
+  "prettier": "@prettier/prettier-config"
+}
+```
+
+### Run
+
+Add a script in your `package.json` file to run Prettier:
+
+```json
+{
+  "scripts": {
+    "lint": "prettier -c --cache ."
+  }
+}
+```

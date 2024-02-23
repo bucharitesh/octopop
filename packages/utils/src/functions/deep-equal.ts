@@ -3,6 +3,18 @@ type DeepEqual = (
   obj2: Record<string, any>,
 ) => boolean;
 
+/**
+ * A function that compares two objects deeply for equality.
+ * @param {Record<string, any>} obj1 - The first object to compare.
+ * @param {Record<string, any>} obj2 - The second object to compare.
+ * @returns {boolean} Returns true if the objects are deeply equal, otherwise false.
+ * @example
+ * // Returns true
+ * deepEqual({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 2 } });
+ *
+ * // Returns false
+ * deepEqual({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 3 } });
+ */
 export const deepEqual: DeepEqual = (obj1, obj2) => {
   if (obj1 === obj2) {
     return true;
