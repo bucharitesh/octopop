@@ -3,35 +3,25 @@ on:
   push:
     branches:
       - dev
-
+permissions:
+  contents: write
 jobs:
-  docs:
-    name: Docs
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout 🛎️
+      - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v3
-      - name: Add key to allow access to repository
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        with:
+          version: 8
+
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          echo "${{ secrets.GH_PAGES_DEPLOY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          cat <<EOT >> ~/.ssh/config
-          Host github.com
-          HostName github.com
-          IdentityFile ~/.ssh/id_rsa
-          EOT
-      - name: Deploy to GitHub Pages
-        env:
-          GIT_USER: bucharitesh
-          USE_SSH: true
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "gh-actions"
           pnpm install
-          cd website
-          pnpm run deploy
+          pnpm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build # The folder the action should deploy.
