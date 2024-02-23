@@ -9,7 +9,7 @@ const config = {
   title: 'Octopop',
   tagline:
     'React library to safely render HTML, filter attributes, autowrap text with matchers, render emoji characters, and much more.',
-  url: 'https://octopop.dev',
+  url: 'https://bucharitesh.github.io/octopop',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onDuplicateRoutes: 'throw',
