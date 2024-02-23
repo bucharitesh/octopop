@@ -10,7 +10,7 @@ const config = {
   tagline:
     'React library to safely render HTML, filter attributes, autowrap text with matchers, render emoji characters, and much more.',
   url: 'https://bucharitesh.github.io',
-  baseUrl: '/',
+  baseUrl: '/octopop/',
   onBrokenLinks: 'throw',
   onDuplicateRoutes: 'throw',
   favicon: 'img/favicon.svg',
