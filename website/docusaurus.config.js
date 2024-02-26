@@ -57,6 +57,11 @@ const config = {
     ],
   ],
   themeConfig: {
+    algolia: {
+      appId: 'A763UELQU7',
+      apiKey: '13547659f0da2fe74c5e4740c5e5ef5b',
+      indexName: 'buchariteshio',
+    },
     navbar: {
       title: 'Octopop',
       logo: {
